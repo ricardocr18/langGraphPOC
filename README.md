@@ -1,3 +1,3 @@
 # langGraphPOC
 
-Projeto em desenvolvimento
+Projeto em desenvolvimento em LangGraph
