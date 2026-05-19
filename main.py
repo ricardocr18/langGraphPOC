@@ -54,6 +54,12 @@ def run_scenario(description: str, user_message: str):
     print(f"\nJornada: {result.get('journey')}")
     print(f"Segmento: {result.get('segment')}")
     print(f"Registro: {result.get('attendance_registered')}")
+    print()
+    print("++++++++++++++++++++++++++++")
+    print()
+    print(f"ResultadoDesejado: ", result)
+
+
 
 
 if __name__ == "__main__":

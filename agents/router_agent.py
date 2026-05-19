@@ -54,9 +54,9 @@ def tia_router_node(state: TIMAgentState) -> dict:
     messages = state.get("messages", [])
     last_message = messages[-1]
     content = (
-        last_message.content
+        last_message.content    # HumanMessage (objeto)
         if hasattr(last_message, "content")
-        else last_message.get("content", "")
+        else last_message.get("content", "")    # dict simples
     )
 
     # Busca semântica: contexto relevante para a solicitação
